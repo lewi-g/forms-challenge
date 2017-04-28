@@ -1,0 +1,27 @@
+<!Doctype HTML>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css"  href="forms-challenge.css">
+</head>
+<body>
+  <form class='form' action="/signup/" method='post'>
+  	<h1><img class="logo" src="logo.png"></h1>
+		<main>
+		
+  		<fieldset name="signup">
+      
+      	<legend>Sign up</legend>
+   		<label for="email">Email</label>
+     	 <input placeholder="foo@bar.com" type="email" name='email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id='email' required/>
+	    <label for="password">Password</label>
+	     	<input type="password" placeholder="abcd123" name="password" required/>
+     	</fieldset>
+
+     	<section>
+     	 <button type='signup'>Sign up</button>
+     	 <a href="/forgot-password/new">Forgot password?</a>
+     	</section>
+    	</main>	
+     <p>Alreaady have an account? <a href="/login">Log In</a></p>	
+	</form>
+</body>

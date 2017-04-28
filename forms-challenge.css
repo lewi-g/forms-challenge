@@ -1,0 +1,48 @@
+
+body {
+	background-color: #3F93E7;
+	text-align: center;
+}
+
+.logo {
+	height: 35px;
+}
+
+form, {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main {
+	margin-left: auto;
+    margin-right: auto;
+	background-color: white;
+	width: 400px;
+	padding: 0px 40px;
+}
+
+.form input, .form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 15px;
+}
+
+.form label {
+	display: block;
+	text-align: left;
+}
+
+.form fieldset {
+	border: none;
+}
+
+button {
+	background-color: #65C470;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+button:hover {
+	background-color: #1E824C;
+}
+
